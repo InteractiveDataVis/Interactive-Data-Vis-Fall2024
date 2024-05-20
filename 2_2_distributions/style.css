@@ -1,19 +1,36 @@
 body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 12px;
   padding: 1em;
 }
 
-h1 {
-  font-size: 3em;
-  margin: 0.25em 0;
-}
-
 h3 {
-  font-size: 2em;
+  font-size: 3.5em;
   margin: 0.25em 0;
 }
 
-p {
-  font-size: 1em;
+#container {
+  display: block;
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 6px;
+  font: 12px sans-serif;
+  background: white;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0.8;
+}
+/* Add this to your existing CSS */
+.heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: grey;
+  font-size: 18px;
+  margin: 10px 0;
 }

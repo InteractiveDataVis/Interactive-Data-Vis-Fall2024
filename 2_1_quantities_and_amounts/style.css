@@ -1,5 +1,5 @@
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16px;
   padding: 1em;
 }
@@ -10,8 +10,8 @@ h1 {
 }
 
 h3 {
-  font-size: 2em;
-  margin: 0.25em 0;
+  font-size: 4em;
+  margin: 0.30em 0;
 }
 
 p {
